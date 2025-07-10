@@ -39,7 +39,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-      prerender: true,
+      redirect: 'https://inertia.social/',
     },
     '/dashboard/**': {
       ssr: false,
