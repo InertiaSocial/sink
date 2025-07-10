@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { onMounted } from 'vue'
 
+window.location.replace('https://inertia.social')
 onMounted(() => {
   window.location.replace('https://inertia.social')
 })
